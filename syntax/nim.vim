@@ -244,9 +244,9 @@ highlight default link nimSugParam        @parameter
 highlight default link nimSugModule       @namespace
 highlight default link nimSugType         @type
 highlight default link nimSugGenericParam @parameter
-highlight default link nimSugVar          @variable
+highlight default link nimSugVar          @field
 highlight default link nimSugGlobalVar    @variable
-highlight default link nimSugLet          @variable
+highlight default link nimSugLet          @field
 highlight default link nimSugGlobalLet    @variable
 highlight default link nimSugConst        @constant
 highlight default link nimSugResult       @variable.builtin
@@ -257,7 +257,7 @@ highlight default link nimSugIterator     @function.call
 highlight default link nimSugConverter    @function.macro
 highlight default link nimSugMacro        @function.macro
 highlight default link nimSugTemplate     @function.macro
-highlight default link nimSugField        @type
+highlight default link nimSugField        @field
 highlight default link nimSugEnumField    @constant
 highlight default link nimSugForVar       @parameter
 highlight default link nimSugLabel        @label
