@@ -209,12 +209,12 @@ syntax sync match nimSyncString grouphere nimString "^\%(discard\|asm\)\s\+\"\{3
 syntax sync match nimSyncString grouphere nimRawString "r\"\{3}"
 
 "if has("nvim-0.9.0")
-highlight default link nimKeywordOperator @keyword.operator
+highlight default link nimKeywordOperator @keyword
 highlight default link nimStatement       @keyword
 highlight default link nimConditional     @keyword
 highlight default link nimKeyword         @field
-highlight default link nimException       @exception
-highlight default link nimRepeat          @repeat
+highlight default link nimException       @keyword
+highlight default link nimRepeat          @keyword
 highlight default link nimConstant        @constant
 highlight default link nimPreCondit       @conditional
 highlight default link nimInclude         @keyword
