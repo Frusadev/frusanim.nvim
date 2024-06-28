@@ -211,7 +211,7 @@ syntax sync match nimSyncString grouphere nimRawString "r\"\{3}"
 "if has("nvim-0.9.0")
 highlight default link nimKeywordOperator @keyword.operator
 highlight default link nimStatement       @keyword
-highlight default link nimConditional     @conditional
+highlight default link nimConditional     @keyword
 highlight default link nimKeyword         @keyword
 highlight default link nimException       @exception
 highlight default link nimRepeat          @repeat
