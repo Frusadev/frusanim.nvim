@@ -212,7 +212,7 @@ syntax sync match nimSyncString grouphere nimRawString "r\"\{3}"
 highlight default link nimKeywordOperator @keyword.operator
 highlight default link nimStatement       @keyword
 highlight default link nimConditional     @keyword
-highlight default link nimKeyword         @keyword
+highlight default link nimKeyword         @field
 highlight default link nimException       @exception
 highlight default link nimRepeat          @repeat
 highlight default link nimConstant        @constant
@@ -257,7 +257,7 @@ highlight default link nimSugIterator     @function.call
 highlight default link nimSugConverter    @function.macro
 highlight default link nimSugMacro        @function.macro
 highlight default link nimSugTemplate     @function.macro
-highlight default link nimSugField        @field
+highlight default link nimSugField        @type
 highlight default link nimSugEnumField    @constant
 highlight default link nimSugForVar       @parameter
 highlight default link nimSugLabel        @label
