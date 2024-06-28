@@ -41,6 +41,7 @@ syntax keyword nimConstant        nil
 syntax keyword nimPreCondit       when
 syntax keyword nimInclude         export from import include
 syntax keyword nimStructure       enum object tuple
+syntax keyword nimAssert          assert
 
 syntax keyword nimPreProcStmt     alignof compiles defined sizeof
 
@@ -209,6 +210,7 @@ syntax sync match nimSyncString grouphere nimString "^\%(discard\|asm\)\s\+\"\{3
 syntax sync match nimSyncString grouphere nimRawString "r\"\{3}"
 
 "if has("nvim-0.9.0")
+highlight default link nimAssert          @exception
 highlight default link nimKeywordOperator @keyword
 highlight default link nimStatement       @keyword
 highlight default link nimConditional     @keyword
