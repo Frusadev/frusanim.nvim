@@ -243,11 +243,11 @@ highlight default link nimSugUnknown      @error
 highlight default link nimSugParam        @parameter
 highlight default link nimSugModule       @namespace
 highlight default link nimSugType         @type
-highlight default link nimSugGenericParam @parameter
-highlight default link nimSugVar          @field
-highlight default link nimSugGlobalVar    @variable
-highlight default link nimSugLet          @field
-highlight default link nimSugGlobalLet    @variable
+highlight default link nimSugGenericParam @type
+highlight default link nimSugVar          @constant
+highlight default link nimSugGlobalVar    @constant
+highlight default link nimSugLet          @constant
+highlight default link nimSugGlobalLet    @constant
 highlight default link nimSugConst        @constant
 highlight default link nimSugResult       @variable.builtin
 highlight default link nimSugProc         @function.call
@@ -257,7 +257,7 @@ highlight default link nimSugIterator     @function.call
 highlight default link nimSugConverter    @function.macro
 highlight default link nimSugMacro        @function.macro
 highlight default link nimSugTemplate     @function.macro
-highlight default link nimSugField        @field
+highlight default link nimSugField        @constant
 highlight default link nimSugEnumField    @constant
 highlight default link nimSugForVar       @parameter
 highlight default link nimSugLabel        @label
