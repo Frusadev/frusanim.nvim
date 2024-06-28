@@ -240,13 +240,13 @@ highlight default link nimPragma          @preproc
 " semantic highlighter, straight from the compiler
 " TSymKind in compiler/ast.nim, sk prefix replaced with nimSug
 highlight default link nimSugUnknown      @error
-highlight default link nimSugParam        @parameter
-highlight default link nimSugModule       @namespace
+highlight default link nimSugParam        @constant
+highlight default link nimSugModule       @constant
 highlight default link nimSugType         @type
 highlight default link nimSugGenericParam @type
-highlight default link nimSugVar          @keyword
+highlight default link nimSugVar          @field
 highlight default link nimSugGlobalVar    @constant
-highlight default link nimSugLet          @keyword
+highlight default link nimSugLet          @field
 highlight default link nimSugGlobalLet    @constant
 highlight default link nimSugConst        @constant
 highlight default link nimSugResult       @variable.builtin
