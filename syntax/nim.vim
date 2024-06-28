@@ -244,9 +244,9 @@ highlight default link nimSugParam        @parameter
 highlight default link nimSugModule       @namespace
 highlight default link nimSugType         @type
 highlight default link nimSugGenericParam @type
-highlight default link nimSugVar          @constant
+highlight default link nimSugVar          @keyword
 highlight default link nimSugGlobalVar    @constant
-highlight default link nimSugLet          @constant
+highlight default link nimSugLet          @keyword
 highlight default link nimSugGlobalLet    @constant
 highlight default link nimSugConst        @constant
 highlight default link nimSugResult       @variable.builtin
@@ -259,7 +259,7 @@ highlight default link nimSugMacro        @function.macro
 highlight default link nimSugTemplate     @function.macro
 highlight default link nimSugField        @constant
 highlight default link nimSugEnumField    @constant
-highlight default link nimSugForVar       @parameter
+highlight default link nimSugForVar       @constant
 highlight default link nimSugLabel        @label
 "else
 "  highlight default link nimKeywordOperator Operator
